@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Practice</title>
+    <style>
+        #SET {
+            background-color: green;
+            display: flex; 
+            height: 100px;
+            width: 10%; 
+            float: left;
+        }
+        .set {
+            color: white;
+            font-size: 60px;
+            font-family: 'Times New Roman', Times, serif;
+            align-self: center;   
+            padding-left: 10px; 
+            }
+        #ListBG {
+            background-color: black;
+            display: flex;
+            width: 90%;
+            height: 100px;
+            float: left;
+        }
+        #List {
+            display: flex;
+            color: white;
+            list-style-type: none;
+            flex-direction: row;
+            margin-left: 30px;   
+        }
+        ul li {
+            margin: 25px;
+        }
+        
+        form {
+            float: left;
+            padding-top: 40px;
+            margin-left: 50px;
+        }
+        #glass {
+            float: left;
+            width: 20px;
+            height: 20px;
+            padding-top: 40px;
+            margin-left: 40px;
+        }
+        #cart {
+            width: 35px;
+            height: 25px;
+        }
+        
+        #login {
+            color: white;
+            list-style-type: none;
+            flex-direction: column;
+            float: left; 
+            padding-left: 100px;
+        }
+
+    </style>
+</head>
+<body>
+        <div id="SET"> <!-- This is the background for set-->
+            <p class="set">SET</p>
+        </div>
+        <div id="ListBG"> <!--This is the background for the list-->
+            <ul id="List">
+                    <li>Menu</li>
+                    <li>Github</li>
+                    <li>Google</li>
+                    <li>Contact</li>
+            </ul>
+        <div>
+            <form>
+                <input type="search" name="" id="search">
+            </form>
+            <img id=glass src="http://www.clker.com/cliparts/n/U/H/1/H/u/search-icon-white-one-hi.png" alt="search icon">
+            <ul id="login">
+                <li style="margin: 5px">LOG&nbsp;IN/DIRECTIONS</li>
+                <li style="margin: 5px">VIEW&nbsp;CART<img id=cart src="https://ak8.picdn.net/shutterstock/videos/1006608868/thumb/7.jpg" alt="cart"></li>
+            </ul>
+        </div>
+</body>
+</html>
